@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/hashtag_icon_250751.ico" type="image/x-icon">
+    <!--para por icon-->
+    <title>exe01</title>
+    <style>
+        mark{
+            background-color: aquamarine;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>APENAS</h1>
+    <hr>
+    <p>primeiro programa</p>
+    <p>momentr unico</p>
+    <p>quebra de linha &lt;p&gt; <br>
+        emojis: &#x1f596;
+    </p>
+    <p>imagens: na pasta<br>
+        <img src="8485624.png" alt="foto qualquer">
+        <p>imagem em sub-pasta</p>
+        <img src="imagens/8485624.png" alt="foto">
+        <p>imagem da web</p>
+        <img src="https://styles.redditmedia.com/t5_42nhxk/styles/communityIcon_vb8305k77xo61.png?width=256&s=7a4a763b7f929dd1ee7fe6ea04f9a27d71c581e0" alt="foto redragon">
+        <p>icon: HEAD</p>
+    </p>
+
+    <h1>Hierarquia de titulos: titulo principal</h1>
+    <h2>SUB-titulo do H1: sub titulo</h2>
+    <h3>SUB de h2 de nv 3: subs titulos do sub titulo</h3>
+    <p>(paragrafo)Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel, temporibus adipisci.</p>
+    <h3>sub de h2 de nv 3</h3>
+    <p>(paragrafo)Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus vel, temporibus adipisci.</p>
+    <h1>Principais formatacoes</h1>
+    <h2>negrito / destaque </h2>
+    <p>nesta frase temos um <b>termo em negrito</b> usando a tag b(nao sematinco)</p>
+    aqui tem <strong> semantica </strong>
+    <p> <i>italico(esse nao)</i>  esse tem significa <em> apenas</em></p>
+    <h1>TEXTO MARCADO</h1>
+    <p>Lorem ipsum dolor sit amet <mark style="background-color: rgb(161, 90, 90);"> consectetur adipisicing </mark>elit. Iure tempore <mark> rem voluptatum.</mark></p>
+    <p>sup <ins>subir uma</ins> letra e "sub" para descer uma letra, <sub>e</sub>xem<sup>pl</sup>o</p>
+    <p>Lorem ipsum, dolor sit <del>amet consectetur</del> adipisicing elit. Temporibus necessitatibus </p>
+    <pre>
+        <code>
+    num = input('')
+    if (num%2) == 0:
+        printf(f'o nume {num} é par')
+    else:
+        printf(f'o num {num} é impar')
+
+        </code>
+    </pre>
+    <H2>Citacoes</H2>
+    <p>Lorem ipsum dolor sit <q> amet consectetur adipisicing</q> elit. Recusandae cum reiciendis voluptate molestia</p>
+    <blockquote cite="https://docs.uft.edu.br/share/s/eQnNB1YmS1qXHsFTOyWvkA">
+        1.5. Não será aceito recurso de estudante que estiver na situação de classificado noEdital de Resultado Parcial
+    </blockquote>
+    <h2>abreviacoes</h2>
+    <p>aksjdqkodaksd <abbr title="hYPERTEXT marckup">HTML</abbr> <abbr TITLE="Cascading Style Sheets">CSS</abbr></p>
+    <h1>Lista</h1>
+    <h2>lista ordenadas</h2>
+    <ol type="I" start="1">
+        <li>alguma coisa</li>
+        <li>outra coisa sem li
+        <li>outra de outra coisa
+    </ol>
+    <h2>listas nao ordenadas</h2>
+    <ul>
+        <li>apenas</li>
+        <li>apenas</li>
+        <li>outro apenas
+    </ul>
+    <h2>lista aninhadas</h2>
+    <ol type="I">
+        <li>linguagem de inicio</li>
+            <ul>
+                <li>C</li>
+                <ul type="disc">
+                    <li>C é horrivel</li>
+                </ul>
+                <li>Python</li>
+            </ul>
+        <li>Linguagem em aprendizado</li>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+    </ol type="I">
+    <h2>Link externos</h2>
+    <p>entre na <a href="https://www.udemy.com/" target="_blank" rel="external">udemy</a> todos os dias</p>
+    <br>
+    <h2>indo para outra pagina</h2>
+    <p>clique <a href="2.html" rel="next" target="self"> aqui </a>opara ir para segunda pagina</p>
+    <h2>Link para downloads</h2>
+    <ul>
+        <li><a href="8485624.png" target= "_blank" download="8485624.png" type="application/png"> baixe a primeira imagem</a>, parece que o vs diz que é uma foto da web onde tem sua propria maneira de por IMG</li>
+        <li><a href="8485624.rar" target="_blank" download="8485624.rar" type="application/rar">baixar compactado em rar</a></li>
+    </ul>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="">
+    </picture>
+    <h1>AUDIO</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="../exe/hoje.mp3" type="audio/mpeg">
+    </audio>
+    <h1>VIDEO</h1>
+    <video controls>
+        <source src="luc way.webm" type="video/mp4">
+        <source src="luc way (video-converter.com).webm" type="video/webm">
+    </video>
+    <h1>video imcorporado</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-AZlRlJd-k0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
