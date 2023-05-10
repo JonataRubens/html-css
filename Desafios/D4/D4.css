@@ -9,17 +9,27 @@
     --font3: '';
 }
 
+*{
+    font-family: var(--font2);
+}
+
 header > h1{
     padding-bottom: 65px;
     
 }
+
+html{
+    height: 100%;
+    
+}
+
 body{
     text-align: center;
     background-color: var(--cor2);
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    min-width: 450px;
+    min-width: 100%;
    
 }
 
@@ -116,7 +126,7 @@ p{
     text-align: justify;
     padding: 0px 30px;
     text-shadow: 2px 2px 0px rgba(32, 32, 32, 0.164);
-
+    
 }
 
 img{
