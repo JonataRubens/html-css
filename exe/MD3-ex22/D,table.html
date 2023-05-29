@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width:600px;
+            border-collapse: collapse;
+        }
+        td, th{ 
+            border: 1px solid black;
+            padding: 5px;
+            height:50px;
+            text-align: center;
+        }
+        th{
+            background-color: gray;
+        }
+        #container{
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <table>
+            <caption>tabela de notas</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2" scope="rowgroup">area</th>
+                    <th rowspan="2" scope="rowgroup">disciplina</th>
+                    <th colspan="2" scope="colgroup">nota 1</th>
+                    <th rowspan="2" scope="rowgroup">media</th>
+                </tr>
+                <tr>
+                    <th>nota 1</th>
+                    <th>nota2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">exatas</th>
+                    <td>mat</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+        
+                </tr>
+                <tr>
+                    <td>fis</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>quimi</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+        
+                </tr>
+                <tr>
+                    <td>bio</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+        
+                </tr>
+                <tr>
+                    <th colspan="4" style="text-align: left;">media de exatas</th>
+                    <th>0.0</th>
+                </tr>
+                <tr>
+                    <th rowspan="2">humanas</th>
+                    <td>his</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+        
+                </tr>
+                <tr>
+                    <td>geo</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+        
+                </tr>
+                <tr>
+                    <th colspan="4" style="text-align: left;">media de humanas</th>
+                    <th>00</th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
